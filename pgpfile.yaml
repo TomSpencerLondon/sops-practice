@@ -1,11 +1,14 @@
-foo: ENC[AES256_GCM,data:6EUO,iv:VuF3TED+xRmhsZ6KD/zi/iB/XjN43/9SloHmJXaZ14o=,tag:oPj55B0Q9AYL6kVyFypJ5w==,type:str]
+foo:
+    bar:
+        baz: ENC[AES256_GCM,data:LHYsbT4=,iv:8CDXtwD+lXiDrCZQWgCK5vjbY2bslhxwTOGqMTo1J0k=,tag:x6KrnsVQKYLkKQHMBCrb5w==,type:str]
+monitoringkey: ENC[AES256_GCM,data:3ZkOcOA=,iv:vcv/ulPoozB359hRRJJqRBlar4HLjiU5KJ50KKpqhOY=,tag:MpHPX1ThuGWHhkSJBsjtkw==,type:str]
 sops:
     kms: []
     gcp_kms: []
     azure_kv: []
     hc_vault: []
-    lastmodified: '2020-08-06T14:59:01Z'
-    mac: ENC[AES256_GCM,data:ENJOw/ZkBrbF9OXFOTXa3XZ+8+WJOEyPTauxO5aj3mUHM6t6MUpEOzcY/o4nK583WdNrih8oUbnr+zrHy7jsK4vVBSqnIJ6Kd/Um600YjeuJFouFoLvUZvJxEnsJYi/mZhVEOYL6TY+yAGm/62lBoGF/ZF7i2AQVpfz1Ht8LRjk=,iv:zkh2ikCqp5ctfhS1Nqk0jhsBeP+DROao++Zz2uHa7fk=,tag:PMdxSvoaeGzNhbLKqmsIbA==,type:str]
+    lastmodified: '2020-08-07T11:52:40Z'
+    mac: ENC[AES256_GCM,data:lcvDIMMY999My7HnTAaTF5mie76+BFV4/nurFsWrMoKajyOY7UaIwcGyAyPiKOf+1S7OyHN5pyajSX7hCwwKRdjU3a5OlZaFxcuT+SDCSlmsyKTp5vvXOQ/7qWFgyV4Sb5rAroRHvZ2XBdJX0gSTZlz5VmwfZwE06P38a0AU6OU=,iv:KGelV2HYwmdfrlaxr7Zk4URoQ5l7OrGRkxxVyfy/yXQ=,tag:tb4+YPxgbWyl9xPQsqd+mg==,type:str]
     pgp:
     -   created_at: '2020-08-06T14:58:20Z'
         enc: |
